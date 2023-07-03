@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(0,172,255);
+    background: linear-gradient(90deg, rgba(0,172,255,1) 0%, rgba(0,255,147,1) 100%);
+}
+
+table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0,175px);
+}
+
+tr, td{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+td button{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    border: 1px solid #FFF;
+    background-color: rgb(189,235,246);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+td button:hover{
+    background-color: rgb(226, 246, 248);
+}
+
+td button:active{
+    background-color: #FFF;
+}
+
+.dwa-wiersze button{
+    width: 150px;
+}
+
+.pobranePoprzednio{
+    width: 290px;
+    height: 30px;
+    padding: 10px 10px 0 0;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.65);
+    text-align: right;
+    color: white;
+}
+
+.pobraneOstatnio{
+    width: 290px;
+    height: 60px;
+    padding: 10px 10px 0 0;
+    font-size: 38px;
+    background-color: rgba(0, 0, 0, 0.65);
+    text-align: right;
+    color: white;
+}
